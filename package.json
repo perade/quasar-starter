@@ -1,0 +1,59 @@
+{
+  "name": "quasar-starter",
+  "version": "0.0.1",
+  "description": "quasar-starter",
+  "productName": "quasar-starter",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "clean": "quasar clean",
+    "serve": "quasar serve",
+    "dev": "quasar dev",
+    "dev:aos": "quasar dev -m android -i",
+    "dev:ios": "quasar dev -m ios -i",
+    "dev:electron": "quasar dev -m electron",
+    "build": "quasar build",
+    "build:debug": "quasar build -d",
+    "build:aos": "quasar build -m android -i",
+    "build:ios": "quasar build -m ios -i",
+    "build:electron": "quasar build -m electron"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "quasar": "^2.0.0",
+    "vue": "^3.1.1",
+    "vue-i18n": "^9.1.6",
+    "vue-router": "^4.0.9",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app": "^3.0.0",
+    "prettier": "^2.3.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-vue": "^7.0.0",
+    "eslint-webpack-plugin": "^2.4.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 14.17.0",
+    "npm": ">= 6.14.13",
+    "yarn": ">= 1.22.10"
+  }
+}
